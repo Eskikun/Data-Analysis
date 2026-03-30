@@ -1,1 +1,6 @@
+import kagglehub
 
+# Download latest version
+path = kagglehub.dataset_download("milanzdravkovic/pharma-sales-data")
+
+print("Path to dataset files:", path)
